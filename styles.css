@@ -33,7 +33,7 @@
     flex-direction: column;
 }
 .petitparagraphe{
-    background-color: #293133;
+    background-color: #4A4A4A;
     text-align: left;
     box-shadow: gray 2px 2px 0.6rem;
     border-radius: 10px;
@@ -41,12 +41,23 @@
     padding: 10px;
     font-family: Arial;
     padding-top: 15px;
-    width: 300px;
+    width: 400px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;
 }
-.petitparagraphe:hover{
-    transform: translateY(3px);
-    filter: brightness(0.98);
-    scale: 10px;
+.petitparagraphe:hover .textwhite{
+    display: none;
+}
+.textwhitebis {
+    font-family: Arial;
+    font-size: 18px;
+    margin: 1px;
+    color: white;
+    display: none;
+}
+.petitparagraphe:hover .textwhitebis{
+    display: inline;
 }
 .textbold {
     font-size: 20px;
@@ -87,3 +98,4 @@
     margin-top: 2px;
     position: fixed;
 }
+
