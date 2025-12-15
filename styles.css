@@ -1,0 +1,103 @@
+.banniere {
+    background-color: #293133;
+    align-content: center;
+    text-align: center;
+    font-family: Arial;
+    font-size: 100px;
+    color: white;
+    height: 200px;
+    margin-top: 5px;
+    border-radius: 15px;
+    box-shadow: #303030 2px 2px 0.9rem;
+}
+.textbanniere {
+    text-align: center;
+    font-family: Arial;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 100px;
+    color: white;
+}
+.paragraphe {
+    background-color: white;
+    text-align: left;
+    box-shadow: gray 2px 2px 0.6rem;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-top: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
+    flex-direction: column;
+}
+.petitparagraphe {
+    background-color: #4a4a4a;
+    text-align: left;
+    box-shadow: gray 2px 2px 0.6rem;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: Arial;
+    padding-top: 15px;
+    width: 400px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;
+    vertical-align: top;
+    transition: all 0.3s ease; /* animation fluide */
+    height: auto; /* s’adapte au texte */
+}
+.petitparagraphe:hover .textwhite {
+    display: none;
+}
+.textwhitebis {
+    font-family: Arial;
+    font-size: 18px;
+    margin: 1px;
+    color: white;
+    display: none;
+}
+.petitparagraphe:hover .textwhitebis {
+    display: block;
+}
+.textbold {
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+.text {
+    font-family: Arial;
+    font-size: 18px;
+    margin-bottom: 1px;
+}
+.textwhite {
+    font-family: Arial;
+    font-size: 18px;
+    margin: 1px;
+    color: white;
+}
+.paragraphehover:hover {
+    transform: translateY(3px);
+    filter: brightness(0.98);
+    scale: 10px;
+}
+.img {
+    padding: 10px;
+    height: 80px;
+}
+.menu {
+    float: left;
+    width: 300px;
+    background-color: #293133;
+    box-shadow: #303030 2px 2px 0.9rem;
+    border-radius: 10px;
+    height: 872px;
+    display: flex;
+    margin-right: 10px;
+    margin-top: 2px;
+    position: fixed;
+}
