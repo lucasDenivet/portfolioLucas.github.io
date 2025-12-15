@@ -46,8 +46,8 @@
     cursor: pointer;
     margin-right: 10px;
     vertical-align: top;
-    transition: all 0.3s ease;
-    height: auto;
+    transition: all 0.3s ease; /* animation fluide */
+    height: auto; /* s’adapte au texte */
 }
 .petitparagraphe:hover .textwhite {
     display: none;
